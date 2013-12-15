@@ -31,7 +31,7 @@
 <target name="deploy" depends="build,clearPackage"/>
 
 <target name="build" depends="makePackage">
-  <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.server}" zipFile="deploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" singlePackage="true" allowMissingFiles="false" />
+  <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="deploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" singlePackage="true" allowMissingFiles="false" />
 </target>
 
 <target name="clearPackage">

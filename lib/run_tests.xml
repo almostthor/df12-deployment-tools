@@ -30,7 +30,7 @@
 
 <target name="RunTests" >
    <record name="RunTest.log" action="start"/>
-   <sf:compileAndTest  username="${sf.username}" password="${sf.password}" serverurl="${sf.server}" >
+   <sf:compileAndTest  username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" >
     <runTests Alltests="true"/>
    </sf:compileAndTest>
    <record name="RunTest.log" action="stop"/>  
