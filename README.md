@@ -76,10 +76,4 @@ Edit the project properties, go to "java build path" --> Libraries tab --> Add E
 The lib folder contains all of the items required to use the deploy tools, including:
 * the 4 ant xml scripts to be included in your build file
 * the 4 WSDL files (which you can update by downloading copies from your own org.  This is especially important for the enterprise.wsdl)
-* the various java jar files needed to support compiling the WSDLs, and for hte DF12Tools project
-
-
-
-
-
-
+* the various java jar files needed to support compiling the WSDLs, and for the DF12Tools project
